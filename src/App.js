@@ -8,6 +8,7 @@ import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
+//renders all components in view
 const App = props => {
   return (
     <div className="boxes">
@@ -23,6 +24,7 @@ const App = props => {
   );
 };
 
+//takes properties from state tree to map to the props of the components
 const mapStateToProps = state => {
   return {
     additionalPrice: state.additionalPrice,
@@ -31,6 +33,8 @@ const mapStateToProps = state => {
   }
 }
 
+//passed mapStateToProps into connect function
+//tells which state to pass to components
 export default connect (
   mapStateToProps,
   { addItem, removeItem } 

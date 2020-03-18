@@ -1,5 +1,6 @@
 import React from 'react';
 
+//added removeItem action to remove items on click
 const AddedFeature = props => {
   return (
     <li>

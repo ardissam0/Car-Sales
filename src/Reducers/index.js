@@ -1,3 +1,4 @@
+//moved state tree from App.js
 const initialState = {
     additionalPrice: 0,
     car: {
@@ -15,7 +16,7 @@ const initialState = {
     ]
   };
 
-  
+  //created reducer to pass into store
   export const reducer = (state = initialState, action) => {
       switch (action.type) {
           case 'ADD_ITEM' :
