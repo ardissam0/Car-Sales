@@ -13,11 +13,11 @@ const initialState = {
       { id: 2, name: 'Racing detail package', price: 1500 },
       { id: 3, name: 'Premium sound system', price: 500 },
       { id: 4, name: 'Performance brakes', price: 300 },
-      { id: 4, name: 'Bulletproof body', price: 20000 },
-      { id: 4, name: 'Solar roof', price: 1000 },
-      { id: 4, name: 'Racing tires', price: 500 },
-      { id: 4, name: 'Rear spoiler', price: 250 },
-      { id: 4, name: 'Matt paint', price: 350 }
+      { id: 5, name: 'Bulletproof body', price: 20000 },
+      { id: 6, name: 'Solar roof', price: 1000 },
+      { id: 7, name: 'Racing tires', price: 500 },
+      { id: 8, name: 'Rear spoiler', price: 250 },
+      { id: 9, name: 'Matt paint', price: 350 }
     ]
   };
 
