@@ -1,5 +1,5 @@
 import React from 'react';
-
+//added the addItem action creator to add/buy extra items
 const AdditionalFeature = props => {
   return (
     <li>
